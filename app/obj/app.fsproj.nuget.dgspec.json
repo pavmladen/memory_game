@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mladen/Documents/5.semestar/fp/new_proj/app/app.fsproj": {}
+  },
+  "projects": {
+    "/home/mladen/Documents/5.semestar/fp/new_proj/app/app.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mladen/Documents/5.semestar/fp/new_proj/app/app.fsproj",
+        "projectName": "app",
+        "projectPath": "/home/mladen/Documents/5.semestar/fp/new_proj/app/app.fsproj",
+        "packagesPath": "/home/mladen/.nuget/packages/",
+        "outputPath": "/home/mladen/Documents/5.semestar/fp/new_proj/app/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mladen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/sdk/7.0.404/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Elmish": {
+              "target": "Package",
+              "version": "[4.1.0, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.402, )",
+              "generatePathProperty": true
+            },
+            "Fable.Elmish.React": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Feliz": {
+              "target": "Package",
+              "version": "[2.7.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
